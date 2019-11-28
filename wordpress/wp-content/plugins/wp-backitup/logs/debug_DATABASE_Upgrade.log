@@ -1,0 +1,24 @@
+[2019-11-21 4:55:41.411823] [wpbackitup_update_database]::[INFO]: Running database upgrade routines.
+[2019-11-21 4:55:41.411935] [wpbackitup_update_database]::[INFO]: Current DB version:0
+[2019-11-21 4:55:41.411998] [wpbackitup_update_database]::[INFO]: Target DB version:4
+[2019-11-21 4:55:41.412118] [wpbackitup_update_database]::[INFO]: New Install.
+[2019-11-21 4:55:41.429167] [debug] *** DROP JOB TABLES ***
+[2019-11-21 4:55:41.429337] [wpbackitup_create_custom_tables]::[INFO]: Drop OLD Job Table:DROP TABLE IF EXISTS wp_wpbackitup_job;
+[2019-11-21 4:55:41.452644] [wpbackitup_create_custom_tables]::[INFO]: OLD Job Table Dropped successfully
+[2019-11-21 4:55:41.452805] [wpbackitup_create_custom_tables]::[INFO]: Drop Job Table:DROP TABLE IF EXISTS wp_wpbackitup_job_control;
+[2019-11-21 4:55:41.453192] [wpbackitup_create_custom_tables]::[INFO]: Job Table Dropped successfully
+[2019-11-21 4:55:41.453278] [wpbackitup_create_custom_tables]::[INFO]: Drop Task Table:DROP TABLE IF EXISTS wp_wpbackitup_job_tasks;
+[2019-11-21 4:55:41.453552] [wpbackitup_create_custom_tables]::[INFO]: Task Table Dropped successfully
+[2019-11-21 4:55:41.453623] [wpbackitup_create_custom_tables]::[INFO]: Drop Job Table:DROP TABLE IF EXISTS wp_wpbackitup_job_items;
+[2019-11-21 4:55:41.454747] [wpbackitup_create_custom_tables]::[INFO]: Item Table Dropped successfully
+[2019-11-21 4:55:41.454828] [debug] *** END DROP JOB TABLES ***
+[2019-11-21 4:55:41.454884] [debug] *** CREATE JOB TABLES ***
+[2019-11-21 4:55:41.511053] [wpbackitup_create_custom_tables]::[INFO]: Table Created:wp_wpbackitup_job_control
+[2019-11-21 4:55:41.535309] [wpbackitup_create_custom_tables]::[INFO]: Table Created:wp_wpbackitup_job_tasks
+[2019-11-21 4:55:41.581748] [wpbackitup_create_custom_tables]::[INFO]: Table Created:wp_wpbackitup_job_items
+[2019-11-21 4:55:41.582947] [debug] *** END CREATE JOB TABLES ***
+[2019-11-21 4:55:41.583041] [debug] ***SCAN & IMPORT BACKUPS ***
+[2019-11-21 4:55:41.583414] [wpbackitup_scan_import_backups]::[INFO]: Backup Sets Found:array (
+)
+[2019-11-21 4:55:41.583585] [debug] ***END SCAN & IMPORT BACKUPS ***
+[2019-11-21 4:55:41.589519] [wpbackitup_update_database]::[INFO]: Updated Db version in settings:4

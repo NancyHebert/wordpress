@@ -1,0 +1,8 @@
+#customize-control-one_page_scroll-section_order{
+	display:none !important;
+}
+#sub-accordion-panel-home-page-sections > li.control-section > .accordion-section-title i {
+	float: left;
+    margin-top: 4px;
+    padding-right: 6px;
+}

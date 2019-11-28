@@ -1,0 +1,17 @@
+.implink {
+    background: #0073aa;
+    padding: 6px;
+    color: #FFF !important;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    line-height: 1.2;
+    box-shadow: none;
+    font-style: normal;
+    text-decoration: none;
+}
+.pre-demo
+{
+	background-color:red !important;
+	margin-right:10px;
+}
